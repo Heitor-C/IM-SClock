@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head><title>IM@S Digital Clock - what time is it? -</title>
+    <style>
+       @font-face {
+        font-family: balsa;
+        src: url(balsa.woff2);
+       }
+       @font-face {
+        font-family: comfy;
+        src: url(comfy.woff2);
+       }
+        body{
+            background-image:url("backgroundnight.jpg");
+            background-size: 50%;
+        }
+
+        h1{
+            font-family:comfy;
+            text-align:center;
+            color:white;
+        }
+        img{
+            display: block;
+            margin-left:auto;
+            margin-right:auto;
+            border-color:white;
+            border-style:dotted;
+        }
+        div{
+            background-color:#00e6e6;
+            font-family: balsa;
+            font-size: 20px;
+            color: aliceblue;
+            margin:0 auto;
+            text-align: center;
+            width: 700px;
+            padding:30px ;
+        }
+    </style></head>
+    <body>
+        <div>
+        <h1 id="greeting">greetings</h1>
+        <img id="greet" height="400px"></img>
+        <p id="time">time</p>
+        </div>
+        <script>
+        const date = new Date();
+        let hour = date.getHours();
+        let minutes = date.getMinutes();
+        let clock = hour.toString()+":"+minutes.toString();
+        document.getElementById("time").innerHTML="It is now "+clock;
+        if(new Date().getHours()<12){
+            document.getElementById("greeting").innerHTML="Good Morning!";
+            document.getElementById("greet").src="good_morning.jpg";
+        }
+        if(new Date().getHours()==12){
+            document.getElementById("greeting").innerHTML="Lunch time! bon appetit!!!";
+            document.getElementById("greet").src="lunchtime.jpg";
+        }
+        if(new Date().getHours()>12){
+            document.getElementById("greeting").innerHTML="Good Afternoon!";
+            document.getElementById("greet").src="goodafternoon.jpg";
+        }
+        if(new Date().getHours()>17){
+            document.getElementById("greeting").innerHTML="Good Evening!";
+            document.getElementById("greet").src="goodevening.jpg";
+        }
+        if(new Date().getHours()==20){
+            document.getElementById("greeting").innerHTML="Dinner Time! bon appetit!!!";
+            document.getElementById("greet").src="dinnertime.jpg";
+        }
+        if(new Date().getHours()>21){
+            document.getElementById("greeting").innerHTML="Its getting late, its time to sleep. Good Night.";
+            document.getElementById("greet").src="goodnight.jpg";
+        }
+        const dia = () =>{
+            if(new Date().getHours>6){
+                dia = true
+            }
+            if(new Date().getHours>18){
+                dia = false
+            }
+        }
+        if(dia = true){
+            document.body.style.backgroundImage="url('backgroundday.jpg')";
+        }
+        </script>
+    </body>
+</html>
