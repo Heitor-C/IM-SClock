@@ -74,17 +74,10 @@
             document.getElementById("greeting").innerHTML="Its getting late, its time to sleep. Good Night.";
             document.getElementById("greet").src="goodnight.jpg";
         }
-        const dia = () =>{
-            if(new Date().getHours>6){
-                dia = true
-            }
-            if(new Date().getHours>18){
-                dia = false
-            }
+        if(hour >= 6 && hour < 18){
+            document.body.style.backgroundImage="url('backgroundday.jpg')"
         }
-        if(dia = true){
-            document.body.style.backgroundImage="url('backgroundday.jpg')";
-        }
+        
         </script>
     </body>
 </html>
