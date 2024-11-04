@@ -1,0 +1,47 @@
+       @font-face {
+        font-family: balsa;
+        src: url(balsa.woff2);
+       }
+       @font-face {
+        font-family: comfy;
+        src: url(comfy.woff2);
+       }
+        body{
+            background-image:url("backgroundday.jpg");
+            background-size: 50%;
+        }
+
+        h1{
+            font-family:comfy;
+            text-align:center;
+            color:white;
+        }
+        img{
+            display: block;
+            margin-left:auto;
+            margin-right:auto;
+            border-color:#ffffe6;
+            border-style:dotted;
+        }
+        div{
+            background-color:#C9E9D2;
+            font-family: balsa;
+            font-size: 20px;
+            color: aliceblue;
+            margin:0 auto;
+            border-color:#FEF9F2;
+            border-style: dashed;
+            border-radius: 30px;
+            text-align: center;
+            width: 700px;
+        }
+
+        #time{
+            background-color: #CC2B52;
+            margin: auto;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            min-width: 50%;
+            max-width: 50%;
+            border-radius: 10px;
+        }

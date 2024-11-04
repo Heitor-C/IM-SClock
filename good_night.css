@@ -1,0 +1,47 @@
+@font-face {
+    font-family: balsa;
+    src: url(balsa.woff2);
+   }
+   @font-face {
+    font-family: comfy;
+    src: url(comfy.woff2);
+   }
+    body{
+        background-image:url("backgroundnight.jpg");
+        background-size: 50%;
+    }
+
+    h1{
+        font-family:comfy;
+        text-align:center;
+        color:#FFD1E3;
+    }
+    img{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        border-color:#7C00FE;
+        border-style:dotted;
+    }
+    div{
+        background-color:#3C0753;
+        font-family: balsa;
+        font-size: 20px;
+        color: aliceblue;
+        margin:0 auto;
+        border-color:#910A67;
+        border-style: dashed;
+        border-radius: 30px;
+        text-align: center;
+        width: 700px;
+    }
+
+    #time{
+        background-color: #CC2B52;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        min-width: 50%;
+        max-width: 50%;
+        border-radius: 10px;
+    }
