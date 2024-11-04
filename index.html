@@ -46,8 +46,8 @@
         </div>
         <script>
         const date = new Date();
-        let hour = date.getHours();
-        let minutes = date.getMinutes();
+        const hour = date.getHours();
+        const minutes = date.getMinutes();
         let clock = hour.toString()+":"+minutes.toString();
         document.getElementById("time").innerHTML="It is now "+clock;
         if(hour < 12 && hour > 6){
