@@ -14,22 +14,22 @@
         h1{
             font-family:comfy;
             text-align:center;
-            color:white;
+            color:#fefae0;
         }
         img{
             display: block;
             margin-left:auto;
             margin-right:auto;
-            border-color:#ffffe6;
+            border-color:#ffb703;
             border-style:dotted;
         }
         div{
-            background-color:#C9E9D2;
+            background-color:##FFC8DD;
             font-family: balsa;
             font-size: 20px;
-            color: aliceblue;
+            color: #edf6f9;
             margin:0 auto;
-            border-color:#FEF9F2;
+            border-color:#CDB4DB;
             border-style: dashed;
             border-radius: 30px;
             text-align: center;
