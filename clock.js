@@ -50,7 +50,7 @@
             document.getElementById("greeting").innerHTML="Dinner Time! bon appetit!!!";
             document.getElementById("greet").src="dinnertime.jpg";
         }
-        if(greeting > 21){
+        if(greeting < 4 || greeting > 21){
             document.getElementById("greeting").innerHTML="Its getting late, its time to sleep. Good Night.";
             document.getElementById("greet").src="goodnight.jpg";
         }
