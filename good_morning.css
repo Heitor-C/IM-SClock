@@ -1,13 +1,13 @@
-       @font-face {
-        font-family: balsa;
-        src: url(balsa.woff2);
-       }
-       @font-face {
-        font-family: comfy;
-        src: url(comfy.woff2);
-       }
+@font-face {
+    font-family: balsa;
+    src: url(balsa.woff2);
+   }
+   @font-face {
+    font-family: comfy;
+    src: url(comfy.woff2);
+   }
 
-/*mobile*/
+   /*mobile*/
    @media only screen and (max-width: 480px){
     *{
         box-sizing: border-box;
@@ -65,44 +65,50 @@
     }
 
    }
-@media only screen and (min-width : 992px){
-        body{
-            background-image:url("backgroundday.jpg");
-            background-size: 50%;
-        }
 
-        h1{
-            font-family:comfy;
-            text-align:center;
-            color:#fefae0;
-        }
-        img{
-            display: block;
-            margin-left:auto;
-            margin-right:auto;
-            border-color:#ffb703;
-            border-style:dotted;
-        }
-        div{
-            background-color: #FFC8DD;
-            font-family: balsa;
-            font-size: 20px;
-            color: #edf6f9;
-            margin:0 auto;
-            border-color:#CDB4DB;
-            border-style: dashed;
-            border-radius: 30px;
-            text-align: center;
-            width: 700px;
-        }
+   /*desktop*/
+   @media only screen and (min-width : 992px){
 
-        #time{
-            background-color: #CC2B52;
-            margin: auto;
-            margin-top: 15px;
-            margin-bottom: 20px;
-            min-width: 50%;
-            max-width: 50%;
-            border-radius: 10px;
-        }
+    body{
+        background-image:url("backgroundday.jpg");
+        background-size: 50%;
+    }
+
+    h1{
+        font-family:comfy;
+        text-align:center;
+        color:#fefae0;
+    }
+
+    img{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        border-color:#ffb703;
+        border-style:dotted;
+    }
+
+    div{
+        background-color:#FFC8DD;
+        font-family: balsa;
+        font-size: 20px;
+        color: #edf6f9;
+        margin:0 auto;
+        margin-top: 3%;
+        border-color:#CDB4DB;
+        border-style: dashed;
+        border-radius: 30px;
+        text-align: center;
+        width: 50%;
+    }
+
+    #time{
+        background-color: #CC2B52;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        min-width: 50%;
+        max-width: 50%;
+        border-radius: 10px;
+    }
 }
