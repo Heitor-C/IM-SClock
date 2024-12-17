@@ -1,4 +1,4 @@
-The Idolm@ster Digital Clock(fanwork) 1.0
+The Idolm@ster Digital Clock(fanwork) 1.8
 
 the clock operates in real time within the HTML and the page will greet you
 according to the time you visit. 
@@ -9,3 +9,6 @@ it is made with HTML, CSS and JavaScript alone, a very simple, very cute and ver
 the next goal is to implement a radio that plays Idolm@ster music for people to enjoy.
 
 if you want your illustration to grace the IM@S clock, just drop a message, you can try contacting me @ohirume.bsky.social. via DM
+
+1.8---
+Added the mobile version, it is still in the works, but should be good enough for now.
