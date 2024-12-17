@@ -82,6 +82,7 @@
         display: block;
         margin-left:auto;
         margin-right:auto;
+        width: 50%;
         border-color:#7C00FE;
         border-style:dotted;
     }
