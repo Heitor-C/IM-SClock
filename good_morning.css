@@ -6,6 +6,67 @@
         font-family: comfy;
         src: url(comfy.woff2);
        }
+
+/*mobile*/
+   @media only screen and (max-width: 480px){
+    *{
+        box-sizing: border-box;
+        }
+
+    body{
+        background-image: url("backgrounddaymobilever.jpg");
+        background-size: auto;
+        background-color: #a2d2ff;
+        background-position-y: 0%;
+        background-repeat: no-repeat;
+    }
+
+    div{
+            background-color:#FFC8DD;
+            font-family: balsa;
+            font-size: 20px;
+            color: #edf6f9;
+            margin: auto;
+            border-color:#CDB4DB;
+            border-style: dashed;
+            border-radius: 30px;
+            text-align: center;
+            width: 90%;
+            height: 80%;
+            
+        }
+
+    h1{
+        font-family:comfy;
+        font-size: larger;
+        text-align:center;
+        color:#fefae0;
+        margin-bottom: 40px;
+    }
+
+    img{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 70%;
+        border-color:#ffb703;
+        border-style:dotted;
+    }
+
+    #time{
+        background-color: #CC2B52;
+        font-size: large;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        min-width: 50%;
+        max-width: 50%;
+        border-radius: 10px;
+    }
+
+   }
+
+    @media only screen and (min-width : 992px){
         body{
             background-image:url("backgroundday.jpg");
             background-size: 50%;
@@ -29,11 +90,12 @@
             font-size: 20px;
             color: #edf6f9;
             margin:0 auto;
+            margin-top: 3%;
             border-color:#CDB4DB;
             border-style: dashed;
             border-radius: 30px;
             text-align: center;
-            width: 700px;
+            width: 50%;
         }
 
         #time{
@@ -45,3 +107,4 @@
             max-width: 50%;
             border-radius: 10px;
         }
+    }
