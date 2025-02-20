@@ -15,7 +15,7 @@
 
     body{
         background-image: url("backgrounddaymobilever.jpg");
-        background-size: auto;
+        background-size: 100% 100vh;
         background-color: #a2d2ff;
         background-position-y: 0%;
         background-repeat: no-repeat;
