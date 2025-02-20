@@ -45,7 +45,7 @@
         margin-left:auto;
         margin-right:auto;
         width: 70%;
-        object-fit: cover;
+        object-fit: scale-down;
         border-color:#7C00FE;
         border-style:dotted;
     }
