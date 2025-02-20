@@ -1,3 +1,5 @@
+/* Good Morning CSS */
+
 @font-face {
     font-family: balsa;
     src: url(balsa.woff2);
@@ -8,17 +10,12 @@
    }
 
    /*mobile*/
-   @media only screen and (max-width: 480px){
-    *{
-        box-sizing: border-box;
-        }
+   @media only screen and (max-device-width: 480px){
 
     body{
         background-image: url("backgrounddaymobilever.jpg");
         background-size: 100% 100vh;
-        background-color: #a2d2ff;
-        background-position-y: 0%;
-        background-repeat: no-repeat;
+        
     }
 
     div{
@@ -26,7 +23,7 @@
             font-family: balsa;
             font-size: 20px;
             color: #edf6f9;
-            margin: auto;
+            margin: 18vh auto;
             border-color:#CDB4DB;
             border-style: dashed;
             border-radius: 30px;
@@ -44,11 +41,12 @@
         margin-bottom: 40px;
     }
 
-    img{
+    #greet{
         display: block;
         margin-left:auto;
         margin-right:auto;
         width: 70%;
+        object-fit: cover;
         border-color:#ffb703;
         border-style:dotted;
     }
@@ -71,7 +69,7 @@
 
     body{
         background-image:url("backgroundday.jpg");
-        background-size: 50%;
+        background-size: 47%;
     }
 
     h1{
