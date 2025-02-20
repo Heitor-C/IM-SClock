@@ -1,3 +1,5 @@
+/*Good Night CSS*/
+
 @font-face {
     font-family: balsa;
     src: url(balsa.woff2);
@@ -8,16 +10,11 @@
    }
 /*mobile*/
    @media only screen and (max-width: 480px){
-    *{
-        box-sizing: border-box;
-        }
 
     body{
         background-image: url("backgroundnightmobilever.jpg");
         background-size: 100% 100vh;
-        background-color: #392467;
-        background-position-y: 0%;
-        background-repeat: no-repeat;
+        
     }
 
     div{
@@ -43,11 +40,12 @@
         margin-bottom: 40px;
     }
 
-    img{
+    #greet{
         display: block;
         margin-left:auto;
         margin-right:auto;
         width: 70%;
+        object-fit: cover;
         border-color:#7C00FE;
         border-style:dotted;
     }
@@ -70,7 +68,7 @@
 
     body{
         background-image:url("backgroundnight.jpg");
-        background-size: 50%;
+        background-size: 47%;
     }
 
     h1{
