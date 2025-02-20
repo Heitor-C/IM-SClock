@@ -41,12 +41,11 @@
         margin-bottom: 40px;
     }
 
-    #greet{
+     #greet{
         display: block;
         margin-left:auto;
         margin-right:auto;
-        max-width: 50%;
-        max-height: 40vh;
+        width: 70%;
         object-fit: scale-down;
         border-color:#ffb703;
         border-style:dotted;
