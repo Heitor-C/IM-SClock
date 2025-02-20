@@ -69,7 +69,7 @@
 
     body{
         background-image:url("backgroundday.jpg");
-        background-size: 47%;
+        background-size: 47% 100vh;
     }
 
     h1{
@@ -84,7 +84,7 @@
         margin-right:auto;
         border-color:#ffb703;
         border-style:dotted;
-        width: 70%;
+        max-width: 60%;
         object-fit: scale-down;
     }
 
