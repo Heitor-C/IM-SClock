@@ -84,7 +84,8 @@
         margin-right:auto;
         border-color:#ffb703;
         border-style:dotted;
-        max-width: 486px;
+        max-width: 40%;
+        max-height: 400px;
         object-fit: scale-down;
     }
 
