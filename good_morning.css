@@ -84,6 +84,8 @@
         margin-right:auto;
         border-color:#ffb703;
         border-style:dotted;
+        width: 70%;
+        object-fit: scale-down;
     }
 
     div{
