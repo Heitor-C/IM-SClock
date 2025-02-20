@@ -45,7 +45,7 @@
         display: block;
         margin-left:auto;
         margin-right:auto;
-        width: 70%;
+        max-width: 60%;
         object-fit: scale-down;
         border-color:#ffb703;
         border-style:dotted;
