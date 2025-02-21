@@ -68,7 +68,7 @@
 
     body{
         background-image:url("backgroundnight.jpg");
-        background-size: 47%;
+        background-size: 47% 100vh;
     }
 
     h1{
@@ -76,7 +76,7 @@
         text-align:center;
         color:#FFD1E3;
     }
-    img{
+    #greet{
         display: block;
         margin-left:auto;
         margin-right:auto;
