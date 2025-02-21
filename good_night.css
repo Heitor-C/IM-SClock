@@ -80,6 +80,8 @@
         display: block;
         margin-left:auto;
         margin-right:auto;
+        width: 43%;
+        object-fit: scale-down;
         border-color:#7C00FE;
         border-style:dotted;
     }
