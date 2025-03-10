@@ -10,5 +10,8 @@ the next goal is to implement a radio that plays Idolm@ster music for people to 
 
 if you want your illustration to grace the IM@S clock, just drop a message, you can try contacting me @ohirume.bsky.social. via DM
 
+2.0---
+added the radio function, it should be functional, improvements to come.
+
 1.8---
 Added the mobile version, it is still in the works, but should be good enough for now.
