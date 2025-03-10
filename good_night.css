@@ -85,7 +85,7 @@
         border-color:#7C00FE;
         border-style:dotted;
     }
-    div{
+    .clock{
         background-color:#3C0753;
         font-family: balsa;
         font-size: 20px;
@@ -107,5 +107,52 @@
         min-width: 50%;
         max-width: 50%;
         border-radius: 10px;
+    }
+
+    .radio{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        background-color: #3C0753;
+        color:aliceblue;
+        font-family: balsa;
+        border-color: #910A67;
+        border-style: dotted;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 40%;
+        max-width: 230px;
+        text-align: center;
+    }
+
+    .player-buttons{
+        background: none;
+        border: none;
+    }
+
+    .slider{
+        -webkit-appearance: none;
+        appearance: none;
+        background: #e3dfe0;
+        height: 2px;
+        width: 86%;
+    }
+
+    .slider::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 2px;
+        height: 3px;
+        background-color: #CC2B52;
+    }
+
+    .slider::-moz-range-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 2px;
+        height: 3px;
+        background-color: #CC2B52;
+
     }
 }
