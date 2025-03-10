@@ -61,6 +61,58 @@
         border-radius: 10px;
     }
 
+    .radio{
+        background-color: #3C0753;
+        color:aliceblue;
+        font-family: balsa;
+        border-color: #910A67;
+        border-style: dotted;
+        border-radius: 8px;
+        width: 90%;
+        text-align: left;
+        margin-top: 0%;
+    }
+
+    .player-buttons{
+        background: none;
+        border: none;
+    }
+
+    .slider{
+        -webkit-appearance: none;
+        appearance: none;
+        background: #e3dfe0;
+        height: 2px;
+        width: 86%;
+    }
+
+    .slider::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 2px;
+        height: 3px;
+        background-color: #CC2B52;
+    }
+
+    .slider::-moz-range-thumb{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 2px;
+        height: 3px;
+        background-color: #CC2B52;
+
+    }
+
+    #volume::-webkit-slider-thumb{
+        width: 3px;
+        height: 8px;
+    }
+
+    #volume::moz-range-thumb{
+        width: 3px;
+        height: 8px;
+    }
+
    }
 
    /*desktop*/
