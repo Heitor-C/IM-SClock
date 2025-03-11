@@ -17,19 +17,20 @@
         
     }
 
-    div{
+    .clock{
             background-color:#3C0753;
             font-family: balsa;
             font-size: 20px;
             color: aliceblue;
-            margin: auto;
+            margin: 18vh auto;
+            margin-top: 40%;
+            margin-bottom: 30%;
             border-color:#910A67;
             border-style: dashed;
             border-radius: 30px;
             text-align: center;
             width: 90%;
-            height: 80%;
-            
+            height: 80%;   
         }
 
     h1{
