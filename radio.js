@@ -3,6 +3,7 @@ const musicdata = [
     "radio/01. THE IDOLM@STER (M@STER VERSION -REMIX-).mp3",
     "radio/02. GO MY WAY!! (M@STER VERSION).mp3",
     "radio/03. i.mp3",
+    "radio/04. 空.mp3",
     "radio/05. shiny smile (M@STER VERSION).mp3",
     "radio/06. Colorful Days (M@STER VERSION).mp3",
     "radio/15. MUSIC♪ (M@STER VERSION).mp3"
